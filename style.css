@@ -21,7 +21,7 @@ body{
   
    font-family: monospace;
    text-align:center ;
-   backdrop-filter: blur(7px);
+   backdrop-filter: blur(4px);
 
 
 }
