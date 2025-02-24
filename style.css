@@ -9,7 +9,7 @@ body{
 }
 header{ 
 background-color:black;
-color:white;
+color:rbg(174, 189, 214);
 font-size:4 em;
 }
 #clockcointainer{
