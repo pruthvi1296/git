@@ -18,3 +18,12 @@ function updateclock(){
 }
 updateclock();
 setInterval(updateclock,10);
+const username = document.getElementById("username");
+        const submit = document.getElementById("submit");
+        submit.onclick = function() {
+            if (username.value.trim() === "") {
+                document.getElementById("display").textContent = `Enter a valid username`;
+            } else {
+                document.getElementById("display").textContent = `Hello ${username.value}`;
+            }
+        }
